@@ -1,0 +1,17 @@
+{
+  "name": "Lịch Việt",
+  "short_name": "Lịch Việt",
+  "description": "Lịch âm dương Việt Nam — xem ngày âm lịch, Can Chi, ngày lễ truyền thống và quản lý sự kiện cá nhân.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f5f5f5",
+  "theme_color": "#171717",
+  "lang": "vi",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

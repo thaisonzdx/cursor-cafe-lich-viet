@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { AnimatedThemeToggler } from "@/components/ui/animated-theme-toggler";
 import { LunarCalendar } from "@dqcai/vn-lunar";
@@ -39,6 +39,14 @@ export function CalendarHeader({
             Hôm nay
           </Button>
           <AnimatedThemeToggler />
+          <a
+            href="https://github.com/thaisonzdx/cursor-cafe-lich-viet"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-md h-8 w-8 hover:bg-accent hover:text-accent-foreground transition-colors"
+          >
+            <Github className="h-4 w-4" />
+          </a>
         </div>
       </div>
 
